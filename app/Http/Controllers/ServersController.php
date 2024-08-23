@@ -76,6 +76,7 @@ class ServersController extends Controller
             $new_server->not_available_at = $server->not_available_at;
             $new_server->not_available_ss_at = $server->not_available_ss_at;
             $new_server->available_at = $server->available_at;
+            $new_server->services = $server->services;
             
             if ($new_server->img_flag) {
                 if (!file_exists(public_path() . '/images/' . $new_server->img_flag)) {
@@ -607,7 +608,9 @@ class ServersController extends Controller
             if (isset($input['url_speed'])) {
                 $data['url_speed'] = $input['url_speed'];
             }
-
+            if (isset($input['services'])){
+                $data['services'] = $input['services'];
+            }
             $server = $this->server->create($data);
 
             $server->save();
@@ -806,7 +809,9 @@ class ServersController extends Controller
             if (isset($input['url_speed'])) {
                 $server->url_speed = $input['url_speed'];
             }           
-            
+            if (isset($input['services'])){
+                $server->services = $input['services'];
+            }
             $server->save();
 
             $this->clearTmpPublicDir();
@@ -1376,6 +1381,7 @@ class ServersController extends Controller
             $obj->name = $server->name;
             $obj->status = strtoupper($server->status_pro == '1' ? 'PRO' : 'FREE');
             $obj->local = $server->status_local;
+            $obj->services = $server->services;
 
             $servers[] = $obj;
         }

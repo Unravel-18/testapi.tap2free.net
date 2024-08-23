@@ -207,7 +207,19 @@
         @endif
       </div>
     </div>
-    
+
+      <div class="form-group">
+          <label for="services" class="control-label">Services</label>
+          <input type="text" class="form-control" id="services" name="services" value="{{ old('services', old('req_edit') ? null : $server->services) }}" />
+          <div class="has-error" id="error_server">
+              @if($errors->has('services'))
+                  @foreach($errors->get('services') as $message)
+                      <div class="help-block">{{ $message }}</div>
+                  @endforeach
+              @endif
+          </div>
+      </div>
+
     <button type="submit" class="btn btn-primary btn-block-xs submit">Сохранить</button>
   </form>
   
