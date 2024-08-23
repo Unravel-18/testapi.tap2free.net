@@ -1,0 +1,19 @@
+proto tcp-client
+remote 185.246.153.12 443
+#push "redirect-gateway def1"
+tls-client
+remote-cert-tls server
+cipher AES-128-CBC
+nobind
+dev tun0
+pull
+resolv-retry infinite
+#compress lzo
+tun-mtu 1500
+tun-mtu-extra 32
+mssfix 1450
+persist-tun
+persist-key
+verb 3
+route-method exe
+route-delay 2

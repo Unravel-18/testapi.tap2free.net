@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "ru-vpn",
+  "private_key_id": "83dc21de05c97fd00e26fd1ba7b85d2f4f61da13",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC1EbcZLSOmWwho\nJHCZrKXwKl/1q3qLQn5mFYbjp7z0m0crgzDIFYz3vhH//Kc991cKqmSCr8Pom7fl\nQ/xeb4Nk7DFiA9kiV5o0BrmwPDFu1bAL4u89cmssLVp79CCGTEU7SFY/Zm/1DTMn\nAljoYVw0ifKnXYLZeVj65Cz3MXYw4A3J+884rZ3HV51kXhmQqjzj6jqeByq1Z11A\nEe0wayyCfSH84NkxN7JwaViMUEre7Wog5nlJ7/8zR7Qd0BAiMtXxL0vicvn3LDTN\njBpsiMl9YXUzrl5mBQ/oN9DzUYXdq7wO0uXu9GVV8hTsHzgiFXEfX6+PijdDDbHD\nUs7mFpSbAgMBAAECggEAAzR1ETUDVIZ395/tfkrYBRA68pY+bQiYRCZNZOorJgk5\nkUOZMXFwNVJf7zABpc8i80Vg0g9aYFuhPaWeae1/XeHwXdPDnCAA0rrrvnrSRSvz\nGcLCiUvlKbsDxv3jNX1UHGCDZkvh32yEY0RfXn2arDNk4CF/l2nWcVpokVeGyAan\nlP2UqLLJjGS5P7bURXS2qUeHyLzJP+ZDgM4WGolg2gxExFVppO5DjhCDiEYGj8HU\nk+2jzKFe4VId9SHz7GRu0xwqQPIAU9RuQuVTI1ZPazl0KkjCK9G+R47Jf2xlkm7b\nVLjJnHtrbzeXQV4pHNxKu843fVAdmFGwbZwqEgs4AQKBgQDk8xtr5yv1pnEZHado\nBCHJmZ/FyLcC2bOF9/0cSA+6CfoLdBUU0OoaHdf08dKemB+7X2g1P8EAFy4iw8jI\nURHfLeSxzjRJ5SzLKidKdVZFYs1Hek+XM+0io09VlP/EDuCCv5Ms2G+6dLrc2Y/1\n08ztSfch7BxOCeHRvpx8xOIZgQKBgQDKdmY0B3oZTWtzaD3CQin4JZ0zczN4Cbae\n/ZQsk7oJjJF5RTms6ESpBcC0pL19GNBBydTWE6K+9QnWX1hC4rSOsr3xOiWwjIip\nWHNe05E+6POmuEib0CBKjfETmQvMqL2X25TV8FUEVtZz43X+jKYtTUD8FkZtiosM\nT52skQfkGwKBgDg3aVhJXwXmZIbiPSTRPuqdihmqeyV8BxSyG7hCCXqI0JjXXAXM\ndm8LPOesKSc/+yqq9o98pAs9pdprcHWfUmAWiL0QAM7UMvd/1j32KcTHydfvNHPQ\nED4dE3HUMCkX7hCssZqlWmnSF7/6u9qEsyDgtInjy99tlcFGqG4KeeoBAoGAZrc0\n2NamQmn9xpovIvvwUP28SFr81LyQ0w6xewAjlS6kq1LMlQVtuBa8Eqm1nN7W4Vml\nSkrB+YFV0VWj8KMVmYPjS5wFfRF/T/MY7RYHDVSgMIg0BiDMESb8FMZDrzw4m++C\nDhwU9dOcj0TqGw9+S2NzQbGHX5G3Q7Ksut0FlNsCgYEAqmjmZ3GHO5B/d1otpZVi\naI/0l2nmRzI+bikYqcuTjNKLvN50MF7d7vpONARt2Rjmv5v/aiFlz8IBSEtqXrsb\nktbC1muL5cvZChxJixBPF7srV5r3egh2qiYvPw8dAeb4OWQefIRx8GMYawzt0OBl\nzxvwOKMdMoaHlM/xHgWt+LY=\n-----END PRIVATE KEY-----\n",
+  "client_email": "integrity-service-account-123@ru-vpn.iam.gserviceaccount.com",
+  "client_id": "103239593258594081085",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/integrity-service-account-123%40ru-vpn.iam.gserviceaccount.com"
+}

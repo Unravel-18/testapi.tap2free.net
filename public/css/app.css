@@ -1,0 +1,99 @@
+.list_table_source tbody tr td 
+{
+    vertical-align: middle;
+}
+
+.list_table_source thead tr td 
+{
+    vertical-align: middle;
+}
+
+.equal, .equal > div[class*='col-'] 
+{
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    flex:1 0 auto;
+}
+
+#seo_key_autocomplete
+{
+    position: absolute; 
+    z-index: 99; 
+    display: none;
+    height: 400px;
+    overflow: auto;
+}
+
+#seo_key_autocomplete div div 
+{
+    padding: 3px 5px;
+    cursor: pointer;
+    background-color: #F0FFFF;
+}
+
+#seo_key_autocomplete div div:hover 
+{
+    background-color: #838B8B;
+    color: #F0FFFF;
+}
+
+.btn-file
+{
+	position: relative;
+  overflow: hidden;
+	/*vertical-align: inherit;*/	
+	width: 200px;
+}
+
+.btn-inactive
+{
+	opacity: 0.65;
+}
+
+.btn-file input[type=file]
+{
+	position: absolute;
+	top: 0;
+	right: 0;
+	min-width: 100%;
+	min-height: 100%;
+	font-size: 100px;
+	text-align: right;
+	filter: alpha(opacity=0);
+	opacity: 0;
+	outline: none;
+	background: white;
+	cursor: inherit;
+	display: block;
+}
+.block-img-upload .glyphicon-remove {
+    cursor: pointer;
+}
+.tr_red td {
+    background-color: #EEB4B4;
+}
+.tbl-servers td,th {
+    text-align: center;
+    vertical-align: middle;
+}
+.edit-id {
+    cursor: pointer;
+}
+.inpt-id {
+    width: 50px;
+    text-align: center;
+    background-color: inherit;
+    border: none;
+}
+
+.inpt-id:focus {
+    background-color: #FFFFF0;
+    border: 1px inset #DCDCDC;
+}
+
+.openMessageModal, .message-delete{
+    cursor: pointer;
+}
